@@ -6,7 +6,7 @@ Detalhamento do processo de analise facial com Azure Machine Learning
 
 1º Na página (https://portal.azure.com/), na parte a esquerda da página clicar em " + Create a resource", em categories, clicar em " AI + Machine Learning" e depois em "create" no "Azure AI Services".
 
-2º Agora iremos criar uma ponte dos serviços de inteligência artificial na nossa assinatura para o Vision Studio. Nessa tela preencher da seguinte forma convorme o material de apoio da página [!Facial Recognition Azure ML](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html)] e conforme a baixo:
+2º Agora iremos criar uma ponte dos serviços de inteligência artificial na nossa assinatura para o Vision Studio. Nessa tela preencher da seguinte forma convorme o material de apoio da página (https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html) e conforme a baixo:
 
 Assinatura: Sua assinatura do Azure.
 Grupo de recursos: Selecione ou crie um grupo de recursos com um nome exclusivo.
@@ -17,7 +17,7 @@ Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo: Sel
 
 Após o preenchimento dos campos, clicar em "Review + create", para assim finalizar o processo de criação do vinculo com o Vision Studio.
 
-3º Após vincularmos a assinatura ao Vision Studio, iremos acessar o portal através do site [![Portal Vision Studio](https://portal.vision.cognitive.azure.com/)], ao acessar o portal confira se sua conta está logada na plataforma, clicar em "View all resources".
+3º Após vincularmos a assinatura ao Vision Studio, iremos acessar o portal através do site (https://portal.vision.cognitive.azure.com/), ao acessar o portal confira se sua conta está logada na plataforma, clicar em "View all resources".
 
 4º Na página de seleção de recursos, devemos selecionar o recurso que nós criamos e clicar em "Select as default resource". Aguarde de 5 a 10 minutos para a plataforma sincronizar o recurso, volte para a página anterior, observe se o recurso selecionado foi atualizado sem erros.
 
