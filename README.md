@@ -44,9 +44,6 @@ Exemplo de detecção de atributos:
 
 7º Podemos também adquirir um arquivo JSON, com o código da imagem analisada, onde podemos utilizar em uma aplicação, ou em um banco de dados e etc...
 
-<<<<<<< Updated upstream
-8º Como exemplo prático eu utilizei uma imagem minha
-=======
 8º Como exemplo prático eu utilizei uma imagem minha:
 
   <img src="/inputs/Piter Capistrano.jpg">
@@ -60,132 +57,130 @@ Exemplo de detecção de atributos:
 
     Código JSON gerado:
 
-    [
-  {
-    "recognitionModel": "recognition_01",
-    "faceRectangle": {
-      "width": 258,
-      "height": 308,
-      "left": 136,
-      "top": 74
-    },
-    "faceLandmarks": {
-      "pupilLeft": {
-        "x": 195.6,
-        "y": 188.7
-      },
-      "pupilRight": {
-        "x": 310.5,
-        "y": 200.1
-      },
-      "noseTip": {
-        "x": 224.8,
-        "y": 216.6
-      },
-      "mouthLeft": {
-        "x": 180.2,
-        "y": 287.5
-      },
-      "mouthRight": {
-        "x": 284.3,
-        "y": 298.7
-      },
-      "eyebrowLeftOuter": {
-        "x": 168.1,
-        "y": 153.5
-      },
-      "eyebrowLeftInner": {
-        "x": 222.2,
-        "y": 147.9
-      },
-      "eyeLeftOuter": {
-        "x": 178,
-        "y": 189.8
-      },
-      "eyeLeftTop": {
-        "x": 197.7,
-        "y": 180.9
-      },
-      "eyeLeftBottom": {
-        "x": 193,
-        "y": 194.4
-      },
-      "eyeLeftInner": {
-        "x": 213.7,
-        "y": 189.8
-      },
-      "eyebrowRightInner": {
-        "x": 282.9,
-        "y": 153.6
-      },
-      "eyebrowRightOuter": {
-        "x": 362.8,
-        "y": 184.3
-      },
-      "eyeRightInner": {
-        "x": 290.2,
-        "y": 198.4
-      },
-      "eyeRightTop": {
-        "x": 310.8,
-        "y": 190.5
-      },
-      "eyeRightBottom": {
-        "x": 309.3,
-        "y": 205.7
-      },
-      "eyeRightOuter": {
-        "x": 331.6,
-        "y": 205.7
-      },
-      "noseRootLeft": {
-        "x": 229.8,
-        "y": 185.5
-      },
-      "noseRootRight": {
-        "x": 261.4,
-        "y": 186.2
-      },
-      "noseLeftAlarTop": {
-        "x": 211.8,
-        "y": 213.3
-      },
-      "noseRightAlarTop": {
-        "x": 260.8,
-        "y": 219.2
-      },
-      "noseLeftAlarOutTip": {
-        "x": 197.2,
-        "y": 233.1
-      },
-      "noseRightAlarOutTip": {
-        "x": 269.1,
-        "y": 243.4
-      },
-      "upperLipTop": {
-        "x": 226.7,
-        "y": 269.7
-      },
-      "upperLipBottom": {
-        "x": 223.7,
-        "y": 280.1
-      },
-      "underLipTop": {
-        "x": 222.4,
-        "y": 287.4
-      },
-      "underLipBottom": {
-        "x": 220,
-        "y": 301.1
-      }
-    },
-    "faceAttributes": {
-      "mask": {
-        "type": "noMask",
-        "noseAndMouthCovered": false
-      }
+        [
+    {
+        "recognitionModel": "recognition_01",
+        "faceRectangle": {
+        "width": 258,
+        "height": 308,
+        "left": 136,
+        "top": 74
+        },
+        "faceLandmarks": {
+        "pupilLeft": {
+            "x": 195.6,
+            "y": 188.7
+        },
+        "pupilRight": {
+            "x": 310.5,
+            "y": 200.1
+        },
+        "noseTip": {
+            "x": 224.8,
+            "y": 216.6
+        },
+        "mouthLeft": {
+            "x": 180.2,
+            "y": 287.5
+        },
+        "mouthRight": {
+            "x": 284.3,
+            "y": 298.7
+        },
+        "eyebrowLeftOuter": {
+            "x": 168.1,
+            "y": 153.5
+        },
+        "eyebrowLeftInner": {
+            "x": 222.2,
+            "y": 147.9
+        },
+        "eyeLeftOuter": {
+            "x": 178,
+            "y": 189.8
+        },
+        "eyeLeftTop": {
+            "x": 197.7,
+            "y": 180.9
+        },
+        "eyeLeftBottom": {
+            "x": 193,
+            "y": 194.4
+        },
+        "eyeLeftInner": {
+            "x": 213.7,
+            "y": 189.8
+        },
+        "eyebrowRightInner": {
+            "x": 282.9,
+            "y": 153.6
+        },
+        "eyebrowRightOuter": {
+            "x": 362.8,
+            "y": 184.3
+        },
+        "eyeRightInner": {
+            "x": 290.2,
+            "y": 198.4
+        },
+        "eyeRightTop": {
+            "x": 310.8,
+            "y": 190.5
+        },
+        "eyeRightBottom": {
+            "x": 309.3,
+            "y": 205.7
+        },
+        "eyeRightOuter": {
+            "x": 331.6,
+            "y": 205.7
+        },
+        "noseRootLeft": {
+            "x": 229.8,
+            "y": 185.5
+        },
+        "noseRootRight": {
+            "x": 261.4,
+            "y": 186.2
+        },
+        "noseLeftAlarTop": {
+            "x": 211.8,
+            "y": 213.3
+        },
+        "noseRightAlarTop": {
+            "x": 260.8,
+            "y": 219.2
+        },
+        "noseLeftAlarOutTip": {
+            "x": 197.2,
+            "y": 233.1
+        },
+        "noseRightAlarOutTip": {
+            "x": 269.1,
+            "y": 243.4
+        },
+        "upperLipTop": {
+            "x": 226.7,
+            "y": 269.7
+        },
+        "upperLipBottom": {
+            "x": 223.7,
+            "y": 280.1
+        },
+        "underLipTop": {
+            "x": 222.4,
+            "y": 287.4
+        },
+        "underLipBottom": {
+            "x": 220,
+            "y": 301.1
+        }
+        },
+        "faceAttributes": {
+        "mask": {
+            "type": "noMask",
+            "noseAndMouthCovered": false
+        }
+        }
     }
-  }
-]
-
->>>>>>> Stashed changes
+    ]
