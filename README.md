@@ -27,20 +27,20 @@ Após o preenchimento dos campos, clicar em "Review + create", para assim finali
 
 Exemplo de detecção de atributos:
 
-Uma pessoa sem mascara:
-Face #1
-Face mask: no
+    Uma pessoa sem mascara:
+    Face #1
+    Face mask: no
 
-Duas pessoas sem mascaras:
-Face #1
-Face mask: no
-Face #2
-Face mask: no
+    Duas pessoas sem mascaras:
+    Face #1
+    Face mask: no
+    Face #2
+    Face mask: no
 
-Uma pessoa com mascara:
-Face #1
-Face mask: yes
-Face mask covering nose and mouth: yes
+    Uma pessoa com mascara:
+    Face #1
+    Face mask: yes
+    Face mask covering nose and mouth: yes
 
 7º Podemos também adquirir um arquivo JSON, com o código da imagem analisada, onde podemos utilizar em uma aplicação, ou em um banco de dados e etc...
 
