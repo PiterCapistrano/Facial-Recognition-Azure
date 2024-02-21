@@ -3392,7 +3392,7 @@ No teste que eu realizei eu utilizei a seguinte imagem:
 
 Segue abaixo o resultado da análise da imagem:
 
-<img src="/inputs/Resultado da análise da imagem da onça.png>
+<img src="/inputs/Resultado da análise da imagem da onça.png">
 
 4º Ele também gera um arquivo JSON, como demonstrado a baixo:
 
